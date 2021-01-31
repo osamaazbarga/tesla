@@ -135,49 +135,27 @@ header {
 
 .navbar {
     color: #fff;
-    overflow: hidden;
     font-size: 15px;
     font-weight: 600;
     letter-spacing:0.1em;
 }
 
-.navbar h1 {
-    float: left;
-    padding-top: 12px;
-}
+
 
 .navbar ul.midnav {
     list-style: none;
     text-align: center;
-    padding: 0;
-    margin: 0;
+
 }
 
 .navbar ul li.rightnav {
     list-style: none;
-    text-align: right;
     float: right;
-    padding: 0;
-    margin: 0;  
+
 }
 
 .navbar ul li{
     display: inline-block;
-}
-
-.hamburger {
-
-    margin-top: 14px;
-    height: 35px;
-    width: 40px;
-    float: right;
-}
-
-.lines {
-    background: white;
-    height: 3px;
-    width: 25px;
-    margin-top: 4px;
 }
 
 
@@ -230,6 +208,21 @@ header {
 
 }
 
+.hamburger {
+
+    margin-top: 14px;
+    height: 35px;
+    width: 40px;
+    float: right;
+}
+
+.lines {
+    background: white;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+}
+
 /*End header*/ 
 
 /*Start safety zone*/
@@ -252,6 +245,10 @@ header {
 .safety .safety-info h2 {
     text-align: center;
     padding-top: 50px;
+}
+
+.safety .safety-info h3 {
+    font-weight: 300;
 }
 
 .fivestars{
@@ -324,7 +321,6 @@ span {
 }
 
 .boxperf {
-
     float: left;
     width: 33%;
     padding: 10px;
@@ -332,7 +328,6 @@ span {
 }
 
 .boxperf p {
-
     margin: -10px auto;
 }
 
@@ -595,7 +590,7 @@ img.carinterioricon {
 .exper-img {
     float: right;
     background: url(../img/global-order-hero.png)center/cover;
-    min-width: ;
+    margin-top: 15%;
     min-height: 400px;
     width: 68%;
 
